@@ -1,0 +1,198 @@
+body{
+    background-color: rgb(126, 192, 250);
+    font-family: Georgia, serif;
+    font-size:        medium;
+    margin:           0px;
+}
+header.top {
+    margin: 10px 10px 0px 10px;
+
+  }
+
+header.top img#headerLogo{
+    width: 1200px;/*长宽度固定，为冻结布局*/
+    height: 300px;
+}
+
+nav {
+    background-color: #91edea;
+	margin: 0px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding-right: 50px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: white;
+	border-bottom: none;
+	font-weight: bold;
+
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+
+h1 {
+    font-size:        120%;
+    color:            #fcd94f;
+    text-align: center;
+  }
+h2 {
+  font-size:        120%;
+  color: #fcd94f;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+#ziwojieshao{
+    display: table-cell;
+    background:  url(../images/background.gif) top left;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+#table{
+    display:table-cell;
+    background:   url(../images/background.gif)  ;
+    margin-left:      10px;
+    margin-right:     10px;
+    height: max-content;
+    padding: 15px;
+}
+table {
+    margin-left:      50px;
+    margin-right:     50px;
+    border:           thin solid rgb(242, 175, 222);
+    caption-side:     top;/*表示该表格标题放在表格的前面*/
+    border-collapse:  collapse;
+ 
+  }
+  
+
+  td, th {
+    border:           thin dotted gray;
+    padding:          5px;
+    font-size:  medium;
+
+  }
+  
+
+  #meishi{
+    display:table-cell;/*表示为表格布局一行上的一个元素*/
+    background:   url(../images/background.gif)  ;
+    padding: 15px;
+  }
+  
+  #footer {
+    background-color:  rgb(126, 192, 250);
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }
+
+  #confidante{
+    display: table-cell;
+    background:  url(../images/background.gif) top left;
+    padding: 15px;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+}
+
+#friends{
+    display:table-cell;
+    background:   url(../images/background.gif)  ;
+    height: max-content;
+    padding: 15px;
+    text-align: center;
+}
+#brother{
+  display:table-cell;
+  background:   url(../images/background.gif)  ;
+  padding: 15px;
+  text-align: center;
+}
+/*
+#bjt img#bjt1{
+  padding-right: 15px;
+
+}
+*/
+#bjt{
+  background:   url(../images/background.gif)  ;
+  display: table-cell;
+  width: 50%;
+  border: 3px solid rgb(55, 158, 202);
+}
+#bjt2{
+  background:   url(../images/background.gif)  ;
+  display: table-cell;
+  width: 50%;
+  border: 3px solid rgb(55, 158, 202);
+}
+
+#二十五二十一 {
+  display:flex;/*弹性布局*/
+  background:   url(../images/background.gif)  ;
+  
+}
+#二十五二十一 img#lxd{
+  float: left;
+  clear:both;
+
+}
+#二十五二十一 p{
+  text-align: left;
+  color: rgb(65, 4, 105);
+  /*border: 1px dashed rgb(55, 158, 202);*/
+}
+
+/*表单*/
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #5af7e4;
+	background: url(../images/background.gif)  ;
+}
+
+form textarea {
+	width: 500px;
+	height: 100px;
+}
+
+div.tableRow {
+	display: table-row;
+  text-align: center;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+div.tableRow p:first-child {
+	text-align: right;/*选择每个tablerow中第一个p元素是向右对齐的*/
+}
+p.heading {
+	font-weight: bold;
+}

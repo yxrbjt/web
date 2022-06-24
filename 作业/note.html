@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css\index.css">
+</head>
+
+<body>
+    <header class="top">
+      <img id="headerLogo"
+           src="images/header.gif" alt="yxr's blog header logo image">
+    </header>
+<!--导航区，一共分为五个页面-->
+	<nav>
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="photos.html">PHOTOS</a></li>
+		<li><a href="idols.html">IDOLS</a></li>
+		<li><a href="favorite.html">FAVORITE</a></li>
+		<li><a href="note.html">NOTE</a></li>
+	</ul>
+	</nav>
+
+    <h1>欢迎来到小颜的主页呀！快来留言吧！</h1>
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="post"> <!--存放表单数据的网址-->
+        <div class="tableRow"><!--首先是一个选择，有下拉列表select，用的是菜单项option-->
+            <p>
+              Choose your number of visits:
+            </p>
+            <p>
+                <select name="次数">
+                  <option value="第1次">第一次</option>
+                  <option value="2到5次">2到5次</option>
+                  <option value="大于5次">大于5次</option>
+                </select>
+            </p>
+        </div>
+<!--radio单向选择-->
+        <div class="tableRow">
+            <p> Your sex: </p>
+            <p>
+                <input type="radio" name="sex" value="girl"> girl<br>
+                <input type="radio" name="sex" value="boy" checked> 
+                boy
+            </p>
+        </div>
+<!--留言板-->
+        <div class="tableRow">
+            <p> your note: </p>
+            <p>
+                <textarea name="comments"></textarea>
+            </p>
+        </div>
+        <!--提交按钮-->
+        <div class="tableRow">
+            <p></p>
+            <p> <input type="submit" value="submit Now"> </p>
+        </div>
+        </form>
+         <!--页脚-->
+        <div id="footer">
+            &copy; 2022, yxr made
+          </div>
+      </body>
